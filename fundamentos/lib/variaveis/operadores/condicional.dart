@@ -2,6 +2,8 @@ import 'dart:io';
 
 void main() {
   const limiteidade = 16;
+
+  // pega a infromação do ususario
   final idade = stdin.readLineSync();
 
   if (idade != null) {
